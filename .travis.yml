@@ -16,7 +16,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: public
-  github_token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKENS
   on:
     branch: master
   target-branch: master
