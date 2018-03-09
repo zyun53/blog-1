@@ -19,5 +19,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   on:
     branch: master
-  target-branch: mas
   repo: zyun-i/zyun-i.github.io
