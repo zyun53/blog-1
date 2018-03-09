@@ -1,0 +1,23 @@
+language: python
+
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.37.1/hugo_0.37.1_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+
+script:
+  - /usr/local/bin/hugo
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  target-branch: master
+  repo: zyun-i/zyun-i.github.io
