@@ -1,10 +1,10 @@
 +++
 title = "Hello"
-date = 2016-01-01T00:00:00+09:00
+date = 1900-01-01T00:00:00+09:00
 categories = ["hello", "テスト"]
 description = "Hello hugo test post"
 image = ""
-tags = ["hello-tag", "test-tag"]
+tags = ["hello", "testpost"]
 author = "Isida Zyun'iti"
 +++
 
