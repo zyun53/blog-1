@@ -1,4 +1,7 @@
 baseURL = "https://zyun-i.github.io/"
 languageCode = "ja-jp"
-title = "zyun-i"
+title = "zyun-i.github.io"
 theme = "mytheme"
+
+[Params]
+sitename = "zyun-i.github.io"

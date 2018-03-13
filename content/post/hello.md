@@ -1,11 +1,11 @@
 +++
 title = "Hello"
-date = 2018-03-09T18:25:21+09:00
-categories = ["", ""]
-description = ""
+date = 2016-01-01T00:00:00+09:00
+categories = ["hello", "テスト"]
+description = "Hello hugo test post"
 image = ""
-tags = ["", ""]
-author = ""
+tags = ["hello-tag", "test-tag"]
+author = "Isida Zyun'iti"
 +++
 
-hi hugo.
+Hi hugo. This is body.

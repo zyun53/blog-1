@@ -1,10 +1,11 @@
 +++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
+title = "Hello 2"
+date = 2018-03-13T14:16:43+09:00
 categories = ["", ""]
 description = ""
-draft = true
 image = ""
 tags = ["", ""]
 author = ""
 +++
+
+Hello 2 body.
