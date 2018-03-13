@@ -21,3 +21,4 @@ deploy:
   on:
     branch: master
   repo: zyun-i/zyun-i.github.io
+  target-branch: master
