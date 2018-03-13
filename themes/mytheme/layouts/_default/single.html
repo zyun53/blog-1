@@ -2,6 +2,9 @@
 
 <section class="blog-post">
     <h1>{{ .Title }}</h1>
+    <nav>
+        {{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+    </nav>
     <div class="blog-post-subheader">
         {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
     </div>

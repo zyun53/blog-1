@@ -5,3 +5,4 @@ theme = "mytheme"
 
 [Params]
 sitename = "zyun-i.github.io"
+dateform = "2006-01-02"
