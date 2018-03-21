@@ -2,7 +2,6 @@ body {
     color: black;
     margin: auto;
     max-width: 50em;
-    margin: 20px auto;
 }
 
 footer {
@@ -22,4 +21,8 @@ pre {
     overflow: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+.home {
+    margin: 0 20px;
 }
