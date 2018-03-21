@@ -4,10 +4,11 @@ date = 2018-03-21T00:00:00+09:00
 tags = ["alexa", "mastodon"]
 +++
 
-こちらに習って、「Alexa、おはどん」をしようとしたのですが、上手く行きません。「おはどん」を
-Alexaが上手く理解出ないのでしょうか。
+「Alexa、おはどん」をしようとしたのですが、上手く行きません。「おはどん」を
+単語としてAlexaが理解出ないのでしょう。アプリで履歴を確認したところ、こんな
+「お　は　の」で理解しているようです。新しい単語は苦手なようです。
 
-[Google HomeでQiitadonに「おはどん」とトゥートする - Qiita](https://qiita.com/Morichan/items/c3868addbfd41a7a86a0 "Google HomeでQiitadonに「おはどん」とトゥートする - Qiita")
+![Alexa screen shot](/media/2018-03-21_alexa.jpg)
 
 Node-REDの構成は以下の通り。
 
@@ -36,3 +37,7 @@ Node-REDの構成は以下の通り。
 
     * メソッド: POST
     * URL: https://your_domain/api/v1/statuses
+
+## 参考
+
+[Google HomeでQiitadonに「おはどん」とトゥートする - Qiita](https://qiita.com/Morichan/items/c3868addbfd41a7a86a0 "Google HomeでQiitadonに「おはどん」とトゥートする - Qiita")
